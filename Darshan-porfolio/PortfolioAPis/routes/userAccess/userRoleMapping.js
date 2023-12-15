@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const userRoleMappingService = require('../../services/UserAccess/userRoleMapping');
+const userRoleMappingService = require('../../services/userAccess/userRoleMapping');
 
 
 router

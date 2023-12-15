@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const roleService = require('../../services/UserAccess/role');
+const roleService = require('../../services/userAccess/role');
 
 router
 .post('/get',roleService.get)

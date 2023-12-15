@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const formService = require('../../services/UserAccess/form');
+const formService = require('../../services/userAccess/form');
 
 router
     .post('/get', formService.get)
