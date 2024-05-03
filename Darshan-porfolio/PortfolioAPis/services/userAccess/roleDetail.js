@@ -4,7 +4,7 @@ const logger = require("../../utilities/logger");
 
 const applicationkey = process.env.APPLICATION_KEY;
 
-var roleDetails = "role_details";
+var roleDetails = "role_details";  
 var viewRoleDetails = "view_" + roleDetails;
 
 
