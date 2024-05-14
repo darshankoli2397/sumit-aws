@@ -66,7 +66,7 @@ const ContactForm = () => {
     try {
       setSubmitting(true);
 
-      const response = await fetch('http://localhost:5000/api/contact/create', {
+      const response = await fetch('http://3.110.210.178:5001/api/contact/create', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
